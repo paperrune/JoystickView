@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity{
                                  "\tpower: " + String.valueOf(joystickView.getPower(xPosition, yPosition)) + "%");
             }
         }, JoystickView.CIRCLE);
+        // JoystickView.RECTANGLE
     }
 }
