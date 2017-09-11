@@ -8,12 +8,12 @@
     android:baselineAligned="false">
 
     <com.example.android.joystickview.JoystickView
-        android:id="@+id/joystickView"
+        android:id="@+id/joystick_view"
         android:layout_width="wrap_content"
         android:layout_height="200dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
