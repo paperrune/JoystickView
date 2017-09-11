@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = (TextView) findViewById(R.id.textView);
+        textView = (TextView) findViewById(R.id.text_view);
 
-        joystickView = (JoystickView) findViewById(R.id.joystickView);
+        joystickView = (JoystickView) findViewById(R.id.joystick_view);
         joystickView.setOnJoystickMoveListener(new JoystickView.OnJoystickMoveListener() {
 
             @Override
